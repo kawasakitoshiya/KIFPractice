@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18095DB51B47BB32009CBBF6 /* GoToNextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18095DB41B47BB32009CBBF6 /* GoToNextTests.m */; };
+		180B0DB31B47CAA900E84378 /* SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B0DB21B47CAA900E84378 /* SampleTests.m */; };
+		180B0DB61B47CBA400E84378 /* Calc.m in Sources */ = {isa = PBXBuildFile; fileRef = 180B0DB51B47CBA400E84378 /* Calc.m */; };
 		18DCEDA81B47B87E00EA0E4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCEDA71B47B87E00EA0E4F /* main.m */; };
 		18DCEDAB1B47B87E00EA0E4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCEDAA1B47B87E00EA0E4F /* AppDelegate.m */; };
 		18DCEDAE1B47B87E00EA0E4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DCEDAD1B47B87E00EA0E4F /* ViewController.m */; };
@@ -30,6 +32,9 @@
 /* Begin PBXFileReference section */
 		18095DB31B47BB32009CBBF6 /* GoToNextTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoToNextTests.h; sourceTree = "<group>"; };
 		18095DB41B47BB32009CBBF6 /* GoToNextTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoToNextTests.m; sourceTree = "<group>"; };
+		180B0DB21B47CAA900E84378 /* SampleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTests.m; sourceTree = "<group>"; };
+		180B0DB41B47CBA400E84378 /* Calc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calc.h; sourceTree = "<group>"; };
+		180B0DB51B47CBA400E84378 /* Calc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calc.m; sourceTree = "<group>"; };
 		18DCEDA21B47B87E00EA0E4F /* KIFPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIFPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DCEDA61B47B87E00EA0E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DCEDA71B47B87E00EA0E4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -93,6 +98,8 @@
 				18DCEDAA1B47B87E00EA0E4F /* AppDelegate.m */,
 				18DCEDAC1B47B87E00EA0E4F /* ViewController.h */,
 				18DCEDAD1B47B87E00EA0E4F /* ViewController.m */,
+				180B0DB41B47CBA400E84378 /* Calc.h */,
+				180B0DB51B47CBA400E84378 /* Calc.m */,
 				18DCEDAF1B47B87E00EA0E4F /* Main.storyboard */,
 				18DCEDB21B47B87E00EA0E4F /* Images.xcassets */,
 				18DCEDB41B47B87E00EA0E4F /* LaunchScreen.xib */,
@@ -115,6 +122,7 @@
 			children = (
 				18DCEDBF1B47B87E00EA0E4F /* Supporting Files */,
 				18095DB31B47BB32009CBBF6 /* GoToNextTests.h */,
+				180B0DB21B47CAA900E84378 /* SampleTests.m */,
 				18095DB41B47BB32009CBBF6 /* GoToNextTests.m */,
 			);
 			path = KIFPracticeTests;
@@ -280,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180B0DB61B47CBA400E84378 /* Calc.m in Sources */,
 				18DCEDAE1B47B87E00EA0E4F /* ViewController.m in Sources */,
 				18DCEDAB1B47B87E00EA0E4F /* AppDelegate.m in Sources */,
 				18DCEDA81B47B87E00EA0E4F /* main.m in Sources */,
@@ -291,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18095DB51B47BB32009CBBF6 /* GoToNextTests.m in Sources */,
+				180B0DB31B47CAA900E84378 /* SampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
